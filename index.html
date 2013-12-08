@@ -5,6 +5,8 @@
 -->
 
 {include="header"}
+<a id="pageTop" class="hidden">{$action}</a>
+
 
 {if="($configurationManager->get('articleDisplayAnonymous')=='1') || ($myUser!=false)"}
 	{function="Plugin::callHook("menu_pre_folder_menu", array(&$myUser))"}
