@@ -33,10 +33,6 @@ Comme n'importe quel thème pour Leed, Greeder s'installe très facilement.
      <li>Vous êtes désormais un utilisateur de Greeder !</li>
 </ol>
 
-# Informations de personnalisation
-
-Il est possible de désactiver globalement les animations en javascript utilisées par greeder et les plugins. Ce comportement est réglable dans les préférences du thème (préférences de Leed => menu préférences de greeder).
-
 # Informations utiles
 
 * Site du logiciel Leed : http://projet.idleman.fr/leed
@@ -54,7 +50,3 @@ Merci aux contributeurs suivants :
 
 * Phyks ([Github page](https://github.com/phyks/), [Website](http://phyks.me))
 * Simon (http://progmatique.fr)
-
-# Informations pour les développeurs de plugins
-
-L'utilisateur a la possiblité de désactiver les animations en javascript (comme celles proposées dans le plugin touchGreeder par exemple) afin d'avoir une navigation plus fluide sur des équipements avec des ressources limitées. Dans ce cas, une classe "no-animations" est ajoutée sur la balise &lt;body&gt;. Il est recommandé de tester la présence de cette classe dans les plugins pour Greeder proposant des animations afin de respecter les possiblités offertes par Greeder à ses utilisateurs.
