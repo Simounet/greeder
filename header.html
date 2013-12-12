@@ -24,9 +24,8 @@
 	{function="Plugin::callLink()"}
 	{function="Plugin::callCss()"}
 </head>
-<body {if="($configurationManager->get('articleDisplayAnonymous')=='1') || ($myUser!=false)"} {else}id="notlogged"{/if} id="leed" class="no-animations">
+<body {if="($configurationManager->get('articleDisplayAnonymous')=='1') || ($myUser!=false)"} {else}id="notlogged"{/if} id="leed">
 	<!-- <!> Balise ayant double utilié :
 	sert de base a javascript pour connaitre l'action courante
 	permet le retour en haut de page -->
 	<a id="pageTopAnvil"></a>
-	<a id="pageTop" class="hidden">{$action}</a>
