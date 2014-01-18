@@ -426,6 +426,24 @@
 	footer{
 		text-align: center;
 	}
+/* IE9- */
+.no-flexboxlegacy #flex {
+    display: block;
+}
+
+.no-flexboxlegacy main {
+    width: 80%;
+}
+
+.no-flexboxlegacy aside {
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+/* IE7 */
+.no-flexboxlegacy.no-boxsizing aside {
+    width: 19%;
+}
 
 	@media (min-width: 1280px) {	/*desktop*/
 		
